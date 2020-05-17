@@ -53,7 +53,7 @@ public class VirtualPetApplication {
 
 
         }
-        if (theDangDog.hungerLevel <= 100 || theDangDog.thirstLevel <= 100 || theDangDog.needToGoOutsideLevel <= 100 || theDangDog.fatigue <= 100) {
+        if (theDangDog.hungerLevel >= 100 || theDangDog.thirstLevel >= 100 || theDangDog.needToGoOutsideLevel >= 100 || theDangDog.fatigue >= 100) {
             System.out.println(" ");
             System.out.println("You let the Dang Dog die! Goodbye now!");
         }
